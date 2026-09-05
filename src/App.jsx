@@ -47,6 +47,8 @@ export default function App() {
       <main className="flex-1">
         {/* 2. Hero Section + 3D Product Visual */}
         <Hero onOpenSample={handleOpenSampleModal} />
+        {/* ₹199 College Admission Coupon */}
+<AdmissionCouponBanner />
 
         {/* 3. 4-Card Trust Strip */}
         <TrustStrip />
